@@ -13,12 +13,13 @@ const cors = require('./middlewares/cors');
 const { PORT = 3000 } = process.env;
 const app = express();
 app.use(helmet());
+mongoose.connect(BD_URL);
 app.disable('x-powered-by');
 
 app.use(cors);
 app.use(cookieParser());
 app.use(bodyParser.json());
-mongoose.connect(BD_URL);
+
 app.use(requestLogger);
 app.use('/', router);
 app.use(errorLogger);
