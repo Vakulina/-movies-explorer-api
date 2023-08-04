@@ -22,8 +22,13 @@
 - скачать содержимое ветки level-1
 - установить зависимости командой **npm install**, запустить локальный сервер командой **npm run start** (на порту 3000)
 
-#### :link: Домен сервера (бэкенд) - https://api.movies-project.nomoredomains.work/
-#### :link: Домен сервера (фронтенд) - https://movies-project.nomoredomains.work/
+### Планы по улучшению проекта
+- типизация
+- монорепозиторий для фронтенд и бэкенд части
+- настроить переменные окружения
+
+#### :link: Домен сервера (бэкенд) - https://759c6cd12fb9.vps.myjino.ru/users/me
+#### :link: Деплой фронтенда - https://movies-onkf.onrender.com
 #### :link: GitHub репозиторий (фронтенд) - https://github.com/Vakulina/movies-explorer-frontend
 
 
