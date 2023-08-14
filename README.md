@@ -1,11 +1,15 @@
 ## Бэкенд-часть сервиса Movies - сервиса по поиску и сохранению понравившихся фильмов с регистрацией и авторизацией (простой аналог "Кинопоиска")
 
-### логин
+```
+ЛОГИН
 test@test.su
-### пароль
+ПАРОЛЬ
 Test2023
+```
 
 #### [Деплой фронтенда](https://movies-onkf.onrender.com/)
+
+![movies](https://github.com/Vakulina/movies-explorer-api/assets/80524794/da273458-e7ef-40c2-8514-37a8f4f6ad2b)
 
 #### Функционал API:
 | **Action**            | **method** | **URI** |
